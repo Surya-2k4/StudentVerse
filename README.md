@@ -51,7 +51,7 @@ npm install
 ### 3️⃣ **Run the application:**  
 ```bash
 # Backend (inside server folder)
-npm start  
+ npx nodemon server.js  
 
 # Frontend (inside client folder)
 npm start  
