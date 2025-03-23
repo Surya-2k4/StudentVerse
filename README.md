@@ -58,18 +58,20 @@ npm start
 ```
 ## 📸 **Screenshots**
 
+## 📸 **Screenshots**
+
 <table>
   <tr>
-    <td><img src="./demo/adminlogin.png" alt="Admin Login" width="400" height="300"></td>
-    <td><img src="./demo/admindashboard.png" alt="Admin Dashboard" width="400" height="300"></td>
+    <td><img src="./demo/adminlogin.png" alt="Admin Login" width="500" height="375"></td>
+    <td><img src="./demo/admindashboard.png" alt="Admin Dashboard" width="500" height="375"></td>
   </tr>
   <tr>
     <td align="center"><b>Admin Login</b></td>
     <td align="center"><b>Admin Dashboard</b></td>
   </tr>
   <tr>
-    <td><img src="./demo/afterAdd.png" alt="After Adding Student" width="400" height="300"></td>
-    <td><img src="./demo/studlogin.png" alt="Student Login" width="400" height="300"></td>
+    <td><img src="./demo/afterAdd.png" alt="After Adding Student" width="500" height="375"></td>
+    <td><img src="./demo/studlogin.png" alt="Student Login" width="500" height="375"></td>
   </tr>
   <tr>
     <td align="center"><b>After Adding Student</b></td>
@@ -77,13 +79,14 @@ npm start
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="./demo/studentdashboard.png" alt="Student Dashboard" width="400" height="300">
+      <img src="./demo/stud.png" alt="Student Dashboard" width="500" height="375">
     </td>
   </tr>
   <tr>
     <td colspan="2" align="center"><b>Student Dashboard</b></td>
   </tr>
 </table>
+
 
 ---
 
