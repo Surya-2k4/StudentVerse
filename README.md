@@ -79,11 +79,12 @@ npm start
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="./demo/stud.png" alt="Student Dashboard" width="500" height="375">
+      <img src="./demo/studdashboard.png" alt="Student Dashboard" width="500" height="375">
+      <img src="./demo/db.png" alt="Database" width="500" height="375">
     </td>
   </tr>
   <tr>
-    <td colspan="2" align="center"><b>Student Dashboard</b></td>
+    <td colspan="2" align="center"><b>Database</b></td>
   </tr>
 </table>
 
