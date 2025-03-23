@@ -78,13 +78,12 @@ npm start
     <td align="center"><b>Student Login</b></td>
   </tr>
   <tr>
-    <td colspan="2" align="center">
-      <img src="./demo/studdashboard.png" alt="Student Dashboard" width="500" height="375">
-      <img src="./demo/db.png" alt="Database" width="500" height="375">
-    </td>
+    <td><img src="./demo/studdashboard.png" alt="Student Dashboard" width="500" height="375"></td>
+    <td><img src="./demo/db.png" alt="Database" width="500" height="375"></td>
   </tr>
   <tr>
-    <td colspan="2" align="center"><b>Database</b></td>
+    <td align="center"><b>Student Dashboard</b></td>
+    <td align="center"><b>Database</b></td>
   </tr>
 </table>
 
