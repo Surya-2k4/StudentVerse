@@ -1,0 +1,321 @@
+/* 🎯 General Styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.3s ease-in-out;
+  }
+  
+  body {
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* 🎯 Header Styling */
+  h1, h2, h3 {
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+  }
+  
+  /* 🎯 Container */
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  /* 🎯 Navigation Bar */
+  nav {
+    background: #007bff;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+  }
+  
+  nav a:hover {
+    color: #ffc107;
+  }
+  
+  /* 🎯 Buttons */
+  button {
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: all 0.3s;
+  }
+  
+  button:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* 🎯 Form Styling */
+  form {
+    max-width: 400px;
+    margin: 50px auto; /* Center the form horizontally and add vertical spacing */
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  form input, form textarea, form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  form input:focus, form textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px #007bff;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* 🎯 Event List Styling */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background: #f9f9f9;
+    margin: 15px 0;
+    padding: 20px;
+    border-left: 5px solid #007bff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  li h3 {
+    font-size: 22px;
+    color: #007bff;
+  }
+  
+  li p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  li button {
+    margin: 5px;
+    font-size: 14px;
+  }
+  
+  /* 🎯 Admin Dashboard */
+  .dashboard {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(33.333% - 20px);
+    transition: 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card h3 {
+    font-size: 20px;
+    color: #007bff;
+  }
+  
+  .card p {
+    font-size: 16px;
+  }
+  
+  /* 🎯 Alerts and Messages */
+  .alert {
+    padding: 15px;
+    background: #28a745;
+    color: #fff;
+    border-radius: 5px;
+    margin: 15px 0;
+    text-align: center;
+  }
+  
+  .alert-error {
+    background: #dc3545;
+  }
+  
+  /* 🎯 Responsive Design */
+  @media (max-width: 1024px) {
+    .container {
+      width: 95%;
+    }
+  
+    .card {
+      width: calc(50% - 20px);
+    }
+  
+    button {
+      padding: 8px 15px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .container {
+      padding: 15px;
+    }
+  
+    li {
+      padding: 15px;
+    }
+  
+    .card {
+      width: 100%;
+    }
+  
+    form button {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    nav a {
+      font-size: 14px;
+      margin: 10px 0;
+    }
+  
+    button {
+      width: 100%;
+      padding: 12px;
+    }
+  
+    form input, form textarea {
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    .card {
+      width: 100%;
+      padding: 15px;
+    }
+  }
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #ddd; /* Add a light border around the table */
+  }
+  
+  /* Table header styling */
+  table thead {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  table th,
+  table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd; /* Add light borders between cells */
+  }
+  
+  /* Table row hover effect */
+  table tbody tr:hover {
+    background-color: #f9f9f9; /* Slightly lighter background on hover */
+  }
+  
+  /* Action buttons styling */
+  table button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  table button:first-child {
+    background-color: #ffc107;
+    color: #fff;
+  }
+  
+  table button:first-child:hover {
+    background-color: #e0a800;
+  }
+  
+  table button:last-child {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  table button:last-child:hover {
+    background-color: #c82333;
+  }
