@@ -56,7 +56,6 @@ npm install
 # Frontend (inside client folder)
 npm start  
 ```
-## 📸 **Screenshots**
 
 ## 📸 **Screenshots**
 
